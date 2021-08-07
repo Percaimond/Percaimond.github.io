@@ -44,7 +44,7 @@ $('.pixel-image').hover(function()
       $('#box3').removeClass('hidden');
       $.ajax({
         type: 'GET',
-        url: 'http://127.0.0.1:5500/otherstuff/basicstructure/utility/articles.json',
+        url: 'articles.json',
         dataType:"json",
         success: function(data) { 
           if(data) {
