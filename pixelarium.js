@@ -44,7 +44,7 @@ $('.pixel-image').hover(function()
       $('#box3').removeClass('hidden');
       $.ajax({
         type: 'GET',
-        url: '/articles.json',
+        url: 'http://pixelnft.me/articles.json',
         dataType:"json",
         success: function(data) { 
           if(data) {
